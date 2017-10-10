@@ -1,5 +1,7 @@
 #include "Camera.h"
 
+
+// EDITED
 Camera::Camera()
 	: cameraPosition({ 0.0f, 10.0f, 10.0f }), movementScalar(0.5f),
 	upVector(0.0f, 1.0f, 0.0f), forwardVector({ 0.0f, -1.0f, -1.0f })
